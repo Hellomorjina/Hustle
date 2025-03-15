@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -7,7 +7,6 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "../ui/navigation-menu";
-import { Switch } from "@/components/ui/switch";
 import { Button } from "@/components/ui/button";
 import MobileMenu from "./MobileMenu";
 import Image from "next/image";
@@ -59,7 +58,9 @@ const Navber = () => {
             <div className="flex items-center">
               <span className="mr-2  text-[#5BB5A2]">Login</span>
             </div>
-            <Button variant="outline" className="bg-[#5BB5A2] text-[#fffff]">Open Account</Button>
+            <Button variant="outline" className="bg-[#5BB5A2] text-[#fffff]">
+              Open Account
+            </Button>
           </div>
           {/* Mobile menu */}
           <MobileMenu />
